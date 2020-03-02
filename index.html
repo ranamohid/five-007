@@ -14,14 +14,51 @@
         <link rel="stylesheet" href="css/responsive.css">
     </head>
     <style>
+        .foot a{
+            font-weight: 900;
+            text-decoration: none;
+            color: white;
+            margin: 3px;
+        }
+
+        .oo{
+            padding-left: 3px ;
+            padding-right: 3px ;
+        }
         .div{
             background-color: transparent; height: 500px; width: 400px; margin-left: -100px; margin-top: -50px;
         }
+
+        footer{
+            margin-top: -100px;
+        }
+
+        .banner{
+            width: 400px;
+        }
+
+        .bannerm{
+            display: none;
+        }
+
         @media only screen and (max-width: 768px) {
+            .bannerm{
+            width: 100%;
+            height: 200px;
+            display: block;
+        }
+
+        .banner{
+            display: none;
+        }
+
             .div{
                 margin-left: 0;  height: 400px; width: 300px
-        
             }
+
+            footer{
+            margin-top: 00px;
+        }
     }
         
     </style>
@@ -30,6 +67,7 @@
 
 <!--================Home Banner Area =================-->
 <section class="home_banner_area" id="home">
+    <img class="bannerm" src="img/banner-services.jpg">
     <h1 style="padding-left: 50px; padding-top: 25px ;">logo</h1>
     <div class="banner_inner" style="padding-top: 75px ;"> 
         <div class="container">  
@@ -38,7 +76,7 @@
                     <h2>Grace Plumbing and  <br /> more for Yoru orlando</h2>
                     <p>In Orlando, plumbing problems are taken care of quickly and efficiently by the experts at Grace Plumbing Inc. When something goes wrong with your sink, toilet, bath, water heater or pipes, you want it fixed right away. We offer prompt and professional service that ensures everything will be working properly again often with same day service. Our goal is to take the time to get it right the first time.</p>
                     <p>We are a full service company that employs background checked plumbers that have the experience to solve the problem quickly and professionally. Need a new sink or bathtub installed, or your pipes replaced? We can do that too, and we keep our prices affordable. Our full range of services includes:</p>
-
+                    <p> Hidden leak detection </br> Drain pipe and other pipe repair and installation </br> Plumbing </br> Repiping </br> Sewer cleaning </br> Slab leak repair </br> Water heater repair </br> Waterline replacement </p>
                 </div>
                 <div class="col-lg-3">
                     <div class="banner_map_img">
@@ -46,12 +84,32 @@
                             <div id="vbtEFWrapper-21004">
                                 <div class="vboutEmbedFormBox" id="vboutEmbedFormBox-21004" data-vbtfc="2af17da228d0826716280c03beb77ed9"></div>
                             </div>
+                            <img class="banner" src="img/banner-services.jpg">
                          </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
+     <!--================ Footer Start=============-->
+     <footer style="width:100%; text-align: center; justify-content: center;" >
+        <div class="main" style="border-top: 3px solid pink; width: 90%; margin: auto; display: flex; flex-direction: column; ">
+            <div class="logo" style=" margin: auto">
+                <h1 style="color: #777777;">Logo</h1>
+            </div>
+           <div style="margin: auto; padding: 5px; color: white; font-weight: 400;">
+            2412123 Orlando way, Orlando FL 32369
+           </div>
+           <div class="foot" style="display: flex; flex-direction: row; margin: auto;">
+            <a href=""> Terms & Conditions </a>
+            <a class="oo" href="" style="border-left: 1px solid white ; border-right: 1px solid white"> Privacy Policy </a>
+            <a href="">  Contact Us </a>
+           </div>
+        </div>  
+    </footer>
+    <!--Footer End -->
+    
 </section>
 <!--================End Home Banner Area =================-->
 </body>
