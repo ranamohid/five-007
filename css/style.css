@@ -30,11 +30,11 @@ body {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #777777;
+  color: #f3e7e7;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 600;
 }
 
@@ -85,7 +85,7 @@ button:focus {
 .main_title h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 36px;
-  color: #222222;
+  color: #f3e7e7;
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -94,7 +94,7 @@ button:focus {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   line-height: 24px;
-  color: #777777;
+  color: #f3e7e7;
   margin-bottom: 0px;
   max-width: 570px;
   font-weight: normal;
@@ -329,7 +329,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
+  background: url(../img/banner/em.gif) no-repeat scroll center center;
   background-size: cover;
 }
 
@@ -352,15 +352,14 @@ button:focus {
 .home_banner_area .banner_inner .banner_content h2 {
   font-size: 60px;
   font-weight: bold;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   margin-bottom: 15px;
   margin-top: -30px;
 }
 
 .home_banner_area .banner_inner .banner_content p {
   color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-family: 'Courier New', Courier, monospace;
   max-width: 450px;
   margin-bottom: 40px;
   font-size: 14px;
