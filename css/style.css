@@ -34,7 +34,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
 }
 
@@ -329,7 +329,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/em.gif) no-repeat scroll center center;
+  background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
   background-size: cover;
 }
 
@@ -350,19 +350,22 @@ button:focus {
 }
 
 .home_banner_area .banner_inner .banner_content h2 {
+  color:  rgb(0, 79, 250);;
   font-size: 60px;
   font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 15px;
   margin-top: -30px;
 }
 
 .home_banner_area .banner_inner .banner_content p {
   color: #fff;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   max-width: 450px;
   margin-bottom: 40px;
   font-size: 14px;
+  font-weight: 700;
 }
 
 .home_banner_area .banner_inner .banner_content .banner_map_img {
